@@ -95,7 +95,7 @@ class PostageForm extends Form
      * @param boolean $back_on_no_options
      * @return self
      */
-    public function setBackOnNoOptions(boolean $back_on_no_options)
+    public function setBackOnNoOptions(bool $back_on_no_options)
     {
         $this->back_on_no_options = $back_on_no_options;
 
