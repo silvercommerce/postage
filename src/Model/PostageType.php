@@ -96,4 +96,20 @@ class PostageType extends DataObject
             $task->up();
         }
     }
+
+    public function getCMSFields()
+    {
+        $this->beforeUpdateCMSFields(function($fields) {
+            /** @var FormField */
+            $site_field = $fields->dataFieldByName('SiteID');
+
+            if (!empty($site_field)) {
+                $site_field
+                    ->setReadonly(true)
+                    ->performReadonlyTransformation();
+            }
+        });
+
+        return parent::getCMSFields();
+    }
 }
