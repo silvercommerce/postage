@@ -34,3 +34,7 @@ Fix error with weights/value
 ## 1.2.3
 
 * Add summary of the setup postage types
+
+## 1.3.0
+
+* Add SS5 Support

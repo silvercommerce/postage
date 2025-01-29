@@ -11,24 +11,24 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Morven Lewis-Everley",
-            "email": "morven@ilateral.co.uk"
+            "name": "Dean Forest Tech",
+            "homepage": "https://dean-forest-tech.uk"
         }
     ],
     "support": {
         "issues": "https://github.com/silvercommerce/postage/issues"
     },
     "require": {
-        "silverstripe/framework": "^4.0",
-        "silverstripe/siteconfig": "^4.0",
-        "silverstripe/admin": "^1.0",
-        "symbiote/silverstripe-gridfieldextensions": "^3.0",
-        "silvercommerce/tax-admin": "^1.0",
-        "silvercommerce/geozones": "^1.0",
-        "silvercommerce/settings": "^1.0"
+        "silverstripe/framework": "^4 || ^5",
+        "silverstripe/siteconfig": "^4 || ^5",
+        "silverstripe/admin": "^1 || ^2",
+        "symbiote/silverstripe-gridfieldextensions": "^3 || ^4",
+        "silvercommerce/tax-admin": "^1",
+        "silvercommerce/geozones": "^1",
+        "silvercommerce/settings": "^1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7",
+        "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "^3.0"
     },
     "autoload": {
