@@ -38,3 +38,7 @@ Fix error with weights/value
 ## 1.3.0
 
 * Add SS5 Support
+
+## 1.4.0
+
+* SS5 specific version of `1.3.0`

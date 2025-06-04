@@ -19,12 +19,12 @@
         "issues": "https://github.com/silvercommerce/postage/issues"
     },
     "require": {
-        "silverstripe/framework": "^4 || ^5",
-        "silverstripe/siteconfig": "^4 || ^5",
-        "silverstripe/admin": "^1 || ^2",
-        "symbiote/silverstripe-gridfieldextensions": "^3 || ^4",
+        "silverstripe/framework": "^5",
+        "silverstripe/siteconfig": "^5",
+        "silverstripe/admin": "^2",
+        "symbiote/silverstripe-gridfieldextensions": "^4",
         "silvercommerce/tax-admin": "^1",
-        "silvercommerce/geozones": "^1 || ^2",
+        "silvercommerce/geozones": "^2",
         "silvercommerce/settings": "^1"
     },
     "require-dev": {

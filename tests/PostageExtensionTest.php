@@ -24,7 +24,7 @@ class PostageExtensionTest extends SapphireTest
         ExtendableObject::class
     ];
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         
