@@ -18,7 +18,6 @@ use SilverCommerce\Postage\Helpers\Parcel;
 use SilverCommerce\Postage\Helpers\PostageOption;
 use SilverCommerce\GeoZones\Forms\RegionSelectionField;
 use SilverCommerce\Postage\Extensions\PostageExtension;
-use SilverStripe\Forms\HiddenField;
 use SilverStripe\ORM\DataObject;
 
 /**
@@ -144,8 +143,8 @@ class PostageForm extends Form
         RequestHandler $controller = null,
         string $name = self::DEFAULT_NAME,
         DataObject $object = null,
-        int $value = 0,
-        int $weight = 0,
+        float $value = 0,
+        float $weight = 0,
         int $items = 0,
         string $country = null,
         string $region = null

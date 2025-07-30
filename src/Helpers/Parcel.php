@@ -6,6 +6,7 @@ use SilverStripe\ORM\ArrayList;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\SiteConfig\SiteConfig;
 use SilverStripe\Core\Injector\Injectable;
+use SilverCommerce\Postage\Model\PostageType;
 
 /**
  * A parcel is a generic object that can be handed to the postage calculator
@@ -266,6 +267,7 @@ class Parcel
         $options = ArrayList::create();
 
         foreach ($types as $type) {
+            /** @var PostageType $type */
             $options->merge($type->getPossiblePostage($this));
         }
 
